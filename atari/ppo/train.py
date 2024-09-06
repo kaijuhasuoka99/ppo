@@ -35,7 +35,7 @@ args = parser.parse_args()
 n_worker = args.n_worker
 T = args.horizon
 gamma = args.gamma
-lamda = args.lamda
+# lamda = args.lamda
 epsilon = args.epsilon
 c_1 = args.c_1
 c_2 = args.c_2
@@ -59,7 +59,6 @@ with open(log_path, 'w') as f:
 
 class RolloutBuffer(Dataset):
     def __init__(self):
-        # 型の安定と、中身の変更のないようにnumpyを採用した。
         self.states = np.zeros((n_worker, T, 4, 84, 84), dtype=np.uint8)
         self.actions = np.zeros((n_worker, T, ), dtype=np.uint8)
         self.rewards = np.zeros((n_worker, T, ), dtype=np.float32)
@@ -131,7 +130,7 @@ def rollout(last_info):
         probs, values = ac.infer(states, batch=True) # (N, ~)
         actions = np.array([np.random.choice(len(probs[i]), p=probs[i]) for i in range(n_worker)]) # (N, )
 
-        log_probs = np.log(np.clip(probs, 1e-10, 1.0)) # pi(a|s_t) # probに0が入らないようにclipでないと-infになる。
+        log_probs = np.log(np.clip(probs, 1e-10, 1.0)) # pi(a|s_t)
         log_probs = log_probs[np.arange(n_worker), actions]
 
         for i in range(n_worker):
