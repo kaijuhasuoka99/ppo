@@ -45,9 +45,17 @@ python test.py --env_name [ENVIRONMENT_NAME] --load_weights_folder [WEIGHTS_FOLD
 
 # Results
 
-| BreakoutNoFrameskip-v4 | BreakoutNoFrameskip-v4 |
-| :-------------------------:|:-------------------------: |
-| ![](./gifs/breakoutnoframeskip_v4.gif) |  ![](./plots/breakoutnoframeskip_v4.png) |
+<table>
+  <tr>
+    <th>BreakoutNoFrameskip-v4</th>
+    <th>BreakoutNoFrameskip-v4</th>
+  </tr>
+  <tr>
+    <td><img src="./gifs/breakoutnoframeskip_v4.gif" width="300"></td>
+    <td><img src="./plots/breakoutnoframeskip_v4.png" width="300"></td>
+  </tr>
+</table>
+
 
 ## References
 
