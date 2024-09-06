@@ -43,7 +43,7 @@ You can watch the trained model play by running:
 python test.py --env_name [ENVIRONMENT_NAME] --load_weights_folder [WEIGHTS_FOLDER]
 ```
 
-# Results
+## Results
 
 <table>
   <tr>
