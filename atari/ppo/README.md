@@ -51,8 +51,8 @@ python test.py --env_name [ENVIRONMENT_NAME] --load_weights_folder [WEIGHTS_FOLD
     <th>BreakoutNoFrameskip-v4</th>
   </tr>
   <tr>
-    <td><img src="./gifs/breakoutnoframeskip_v4.gif" width="300"></td>
-    <td><img src="./plots/breakoutnoframeskip_v4.png" width="300"></td>
+    <td><img src="./gifs/breakoutnoframeskip_v4.gif" height="300"></td>
+    <td><img src="./plots/breakoutnoframeskip_v4.png" height="300"></td>
   </tr>
 </table>
 
