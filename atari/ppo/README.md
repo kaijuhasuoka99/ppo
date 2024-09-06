@@ -35,6 +35,12 @@ By default, the number of workers is set to 64, but you can change this and othe
 python train.py -h
 ```
 
+# Results
+
+| BreakoutNoFrameskip-v4 | BreakoutNoFrameskip-v4 |
+| :-------------------------:|:-------------------------: |
+| ![](https://github.com/kaijuhasuoka99/rl_learning/tree/main/atari/ppo/gifs/breakoutnoframeskip_v4.gif) |  ![](https://github.com/kaijuhasuoka99/rl_learning/tree/main/atari/ppo/plots/breakoutnoframeskip_v4.png) |
+
 ## References
 
 1. **Schulman, J., Wolski, F., Dhariwal, P., Radford, A., & Klimov, O.** (2017). *Proximal Policy Optimization Algorithms*. arXiv preprint arXiv:1707.06347. [Link to paper](https://arxiv.org/abs/1707.06347)
