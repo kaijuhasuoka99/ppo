@@ -1,0 +1,27 @@
+PPO BreakoutNoFrameskip-v4 
+iter:      0 episode_return: 0.85 alpha: 1.0000
+iter:    100 episode_return: 17.15 alpha: 0.9604
+iter:    200 episode_return: 34.90 alpha: 0.9204
+iter:    300 episode_return: 37.45 alpha: 0.8804
+iter:    400 episode_return: 92.15 alpha: 0.8404
+iter:    500 episode_return: 82.30 alpha: 0.8004
+iter:    600 episode_return: 127.45 alpha: 0.7604
+iter:    700 episode_return: 133.55 alpha: 0.7204
+iter:    800 episode_return: 150.75 alpha: 0.6804
+iter:    900 episode_return: 116.60 alpha: 0.6404
+iter:   1000 episode_return: 122.90 alpha: 0.6004
+iter:   1100 episode_return: 131.50 alpha: 0.5604
+iter:   1200 episode_return: 155.05 alpha: 0.5204
+iter:   1300 episode_return: 150.20 alpha: 0.4804
+iter:   1400 episode_return: 153.60 alpha: 0.4404
+iter:   1500 episode_return: 182.60 alpha: 0.4004
+iter:   1600 episode_return: 187.15 alpha: 0.3604
+iter:   1700 episode_return: 184.40 alpha: 0.3204
+iter:   1800 episode_return: 190.40 alpha: 0.2804
+iter:   1900 episode_return: 211.20 alpha: 0.2404
+iter:   2000 episode_return: 188.40 alpha: 0.2004
+iter:   2100 episode_return: 169.30 alpha: 0.1604
+iter:   2200 episode_return: 234.30 alpha: 0.1204
+iter:   2300 episode_return: 242.65 alpha: 0.0804
+iter:   2400 episode_return: 346.15 alpha: 0.0404
+iter:   2500 episode_return: 291.80 alpha: 0.0004
