@@ -39,7 +39,7 @@ python train.py -h
 
 | BreakoutNoFrameskip-v4 | BreakoutNoFrameskip-v4 |
 | :-------------------------:|:-------------------------: |
-| ![](https://github.com/kaijuhasuoka99/rl_learning/tree/main/atari/ppo/gifs/breakoutnoframeskip_v4.gif) |  ![](https://github.com/kaijuhasuoka99/rl_learning/tree/main/atari/ppo/plots/breakoutnoframeskip_v4.png) |
+| ![](./gifs/breakoutnoframeskip_v4.gif) |  ![](./plots/breakoutnoframeskip_v4.png) |
 
 ## References
 
