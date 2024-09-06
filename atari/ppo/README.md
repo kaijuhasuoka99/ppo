@@ -29,10 +29,18 @@ If you want to train on a different environment, you can specify it using the `-
 python train.py --env_name [ENVIRONMENT_NAME]
 ```
 
+You can check the environments on the official [OpenAI Gym](https://www.gymlibrary.dev/environments/atari/) page. Please make sure to append `NoFrameskip-v4` to the environment name.
+
 By default, the number of workers is set to 64, but you can change this and other parameters using command-line options. For more details, refer to:
 
 ```bash
 python train.py -h
+```
+
+You can watch the trained model play by running:
+
+```bash
+python test.py --env_name [ENVIRONMENT_NAME] --load_weights_folder [WEIGHTS_FOLDER]
 ```
 
 # Results

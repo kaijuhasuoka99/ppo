@@ -17,7 +17,8 @@ parser.add_argument('--max_episode_steps', type=int, default=80000)
 args = parser.parse_args()
 
 env_name = args.env_name
-load_weights_folder = args.load_weights_folder
+load_weights_folder = args.load_weights_folder + '/' if not args.load_weights_folder.endswith('/') else args.load_weights_folder
+
 max_episode_steps = args.max_episode_steps
 
 config = ActorCriticConfig()
