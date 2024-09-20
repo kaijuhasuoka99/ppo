@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository provides a Proximal Policy Optimization (PPO) algorithm that does not run rollouts in parallel. The Atari implementation of PPO handles a multi-agent rollout with 8 actors, but as the number of agents increases, neural network computation on the CPU and parallel rollout can become slower on a home desktop.
+This repository provides a Proximal Policy Optimization (PPO) algorithm that does not run rollouts in parallel. The Atari implementation of PPO handles a multi-agent rollout with 8 actors, but as the number of agents increases, neural network computation on the CPU and parallel rollout can be slower on a home desktop.
 
 To address this issue, we have aimed to improve training speed by using **Batch Processing** for neural network computations during the rollout, generating actions, and processing them in a **For Loop** while interacting with the environment.
 
