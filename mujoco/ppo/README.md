@@ -75,12 +75,12 @@ python test.py --env_name [ENVIRONMENTS_NAME] --load_weights_folder [LOAD_WEIGHT
 <table>
 	<tbody>
 		<tr>
-			<th>Walker-v4</th>
-			<th>Walker-v4</th>
+			<th>Walker2d-v4</th>
+			<th>Walker2d-v4</th>
 		</tr>
 		<tr>
-			<td><img src="./gifs/walker_v4.gif" height="300"></td>
-			<td><img src="./plots/walker_v4.png" height="300"></td>
+			<td><img src="./gifs/walker2d_v4.gif" height="300"></td>
+			<td><img src="./plots/walker2d_v4.png" height="300"></td>
 		</tr>
 	</tbody>
 </table>
