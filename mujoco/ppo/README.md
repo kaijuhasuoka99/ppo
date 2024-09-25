@@ -33,3 +33,15 @@ python test.py --env_name [ENVIRONMENTS_NAME] --load_weights_folder [LOAD_WEIGHT
 ```
 
 ## Results
+<table>
+	<tbody>
+		<tr>
+			<th></th>
+			<th></th>
+		</tr>
+		<tr>
+			<td><img src="./gifs/ant_v4.gif" height="300"></td>
+			<td><img src="./plots/ant_v4.png" height="300"></td>
+		</tr>
+	</tbody>
+</table>
