@@ -84,3 +84,10 @@ python test.py --env_name [ENVIRONMENTS_NAME] --load_weights_folder [LOAD_WEIGHT
 		</tr>
 	</tbody>
 </table>
+
+## References
+Paper:
+- PPO (https://arxiv.org/abs/1707.06347)[https://arxiv.org/abs/1707.06347]
+- SAC (https://arxiv.org/abs/1801.01290)[https://arxiv.org/abs/1801.01290]
+Website:
+- OpenAI Gym Documentation MuJoCo (https://www.gymlibrary.dev/environments/mujoco/)[https://www.gymlibrary.dev/environments/mujoco/]
