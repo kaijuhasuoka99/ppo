@@ -40,8 +40,8 @@ python test.py --env_name [ENVIRONMENTS_NAME] --load_weights_folder [LOAD_WEIGHT
 			<th>Ant-v4</th>
 		</tr>
 		<tr>
-			<td><img src="./gifs/ant_v4.gif" height="300"></td>
-			<td><img src="./plots/ant_v4.png" height="300"></td>
+			<td><img src="./gifs/ant_v4.gif" height="200"></td>
+			<td><img src="./plots/ant_v4.png" height="200"></td>
 		</tr>
 	</tbody>
 </table>
@@ -53,8 +53,8 @@ python test.py --env_name [ENVIRONMENTS_NAME] --load_weights_folder [LOAD_WEIGHT
 			<th>HalfCheetah-v4</th>
 		</tr>
 		<tr>
-			<td><img src="./gifs/halfcheetah_v4.gif" height="300"></td>
-			<td><img src="./plots/halfcheetah_v4.png" height="300"></td>
+			<td><img src="./gifs/halfcheetah_v4.gif" height="200"></td>
+			<td><img src="./plots/halfcheetah_v4.png" height="200"></td>
 		</tr>
 	</tbody>
 </table>
@@ -66,8 +66,8 @@ python test.py --env_name [ENVIRONMENTS_NAME] --load_weights_folder [LOAD_WEIGHT
 			<th>HumanoidStandup-v4</th>
 		</tr>
 		<tr>
-			<td><img src="./gifs/humanoidstandup_v4.gif" height="300"></td>
-			<td><img src="./plots/humanoidstandup_v4.png" height="300"></td>
+			<td><img src="./gifs/humanoidstandup_v4.gif" height="200"></td>
+			<td><img src="./plots/humanoidstandup_v4.png" height="200"></td>
 		</tr>
 	</tbody>
 </table>
@@ -79,8 +79,8 @@ python test.py --env_name [ENVIRONMENTS_NAME] --load_weights_folder [LOAD_WEIGHT
 			<th>Walker2d-v4</th>
 		</tr>
 		<tr>
-			<td><img src="./gifs/walker2d_v4.gif" height="300"></td>
-			<td><img src="./plots/walker2d_v4.png" height="300"></td>
+			<td><img src="./gifs/walker2d_v4.gif" height="200"></td>
+			<td><img src="./plots/walker2d_v4.png" height="200"></td>
 		</tr>
 	</tbody>
 </table>
