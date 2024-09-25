@@ -36,12 +36,51 @@ python test.py --env_name [ENVIRONMENTS_NAME] --load_weights_folder [LOAD_WEIGHT
 <table>
 	<tbody>
 		<tr>
-			<th></th>
-			<th></th>
+			<th>Ant-v4</th>
+			<th>Ant-v4</th>
 		</tr>
 		<tr>
 			<td><img src="./gifs/ant_v4.gif" height="300"></td>
 			<td><img src="./plots/ant_v4.png" height="300"></td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<tbody>
+		<tr>
+			<th>HalfCheetah-v4</th>
+			<th>HalfCheetah-v4</th>
+		</tr>
+		<tr>
+			<td><img src="./gifs/halfcheetah_v4.gif" height="300"></td>
+			<td><img src="./plots/halfcheetah_v4.png" height="300"></td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<tbody>
+		<tr>
+			<th>HumanoidStandup-v4</th>
+			<th>HumanoidStandup-v4</th>
+		</tr>
+		<tr>
+			<td><img src="./gifs/humanoidstandup_v4.gif" height="300"></td>
+			<td><img src="./plots/humanoidstandup_v4.png" height="300"></td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<tbody>
+		<tr>
+			<th>Walker-v4</th>
+			<th>Walker-v4</th>
+		</tr>
+		<tr>
+			<td><img src="./gifs/walker_v4.gif" height="300"></td>
+			<td><img src="./plots/walker_v4.png" height="300"></td>
 		</tr>
 	</tbody>
 </table>
