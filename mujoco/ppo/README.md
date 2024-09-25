@@ -3,7 +3,7 @@
 This repository contains code for training and validation in MuJoCo in PPO.
 
 MuJoCo is a physics engine for fast simulation of robots and other objects.
-MuJoCo is characterized not merely by its environment, but also **the action to be input is continuous values.**.
+MuJoCo is characterized not merely by its environment, but also **"the action to be input is continuous values"**.
 This is more difficult to learn than a neural network structure that simply outputs probabilities and determines discrete value actions.
 Here, the policy network is designed to output the mean and variance of continuous-valued actions from the input states.
 And then, the continuous value action is determined by sampling from its mean and variance.
