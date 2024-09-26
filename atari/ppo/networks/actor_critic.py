@@ -24,7 +24,7 @@ class ActorCritic(nn.Module):
     def forward(self, x):
         x = self.state_encoder(x)
         p = self.pi(x)
-        v = self.v(x).squeeze(-1) # (b, t, 1) => (b, t)
+        v = self.v(x).squeeze(-1) # (b, 1, 1) => (b, 1)
         return p, v
     
     def infer(self, state, batch=False):
