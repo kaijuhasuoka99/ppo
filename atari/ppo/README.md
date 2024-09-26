@@ -58,5 +58,5 @@ python test.py --env_name [ENVIRONMENT_NAME] --load_weights_folder [WEIGHTS_FOLD
 
 
 ## References
-
-1. **Schulman, J., Wolski, F., Dhariwal, P., Radford, A., & Klimov, O.** (2017). *Proximal Policy Optimization Algorithms*.  [arXiv preprint arXiv:1707.06347.](https://arxiv.org/abs/1707.06347)
+Paper:
+- Proximal Policy Optimization Algorithms ([https://arxiv.org/abs/1707.06347](https://arxiv.org/abs/1707.06347))
